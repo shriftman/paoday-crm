@@ -1,8 +1,1 @@
-{
-  "regions": ["iad1"],
-  "crons": [],
-  "env": {},
-  "build": {
-    "env": {}
-  }
-}
+
