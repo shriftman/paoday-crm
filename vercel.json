@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["all"],
+  "crons": [],
+  "functions": {
+    "app/api/**/*.ts": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_APP_URL": "https://paoday.vercel.app",
+    "NEXTAUTH_URL": "https://paoday.vercel.app"
+  },
+  "git": {
+    "deploymentEnabled": true
+  }
+}
